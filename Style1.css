@@ -1,0 +1,39 @@
+.top{
+height: 100px;
+    width: 100%;
+  background-color: greenyellow;
+float: left;
+}
+
+.div1{
+height: 600px;
+    width: 20%;
+  background-color: orange;
+    float: left;
+}
+.div2{
+height: 600px;
+    width: 20%;
+  background-color: teal;
+        float: left;
+
+
+}
+.div3{
+height: 600px;
+    width: 60%;
+  background-color: lightskyblue;
+        float: left;
+
+
+}
+
+
+
+section {
+  display: none;
+}
+
+section:target {
+  display: block;
+}
